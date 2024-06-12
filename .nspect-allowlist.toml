@@ -1,0 +1,9 @@
+version = "1.0.0"
+ 
+# Add excluded paths
+[oss.excluded]
+ 
+[[oss.excluded.directories]]
+paths = ['CryptoPkg/Library/OpensslLib/openssl/pyca-cryptography/', 'CryptoPkg/Library/OpeslLib/openssl/']
+comment = 'qemu 8.1.0 within openssl package'
+
